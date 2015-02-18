@@ -1,0 +1,1 @@
+cmd_../../ixgbe/ubuntu/ixgbe.ko := ld -r -m elf_x86_64 -T /afs/ir.stanford.edu/users/h/s/hselin/private/cs344g/n_linux/ubuntu-trusty/scripts/module-common.lds --build-id  -o ../../ixgbe/ubuntu/ixgbe.ko ../../ixgbe/ubuntu/ixgbe.o ../../ixgbe/ubuntu/ixgbe.mod.o
